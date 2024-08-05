@@ -1,0 +1,57 @@
+.list-item-active {
+  background-color: rgb(224, 224, 224) !important;
+  border-left: 5px solid blue !important;
+}
+
+.centered-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: black;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: invert(100%);
+}
+
+.customButton {
+  background-color: white;
+  color: black;
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: start;
+  margin: 10px 0px;
+}
+
+.customButton:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.icon {
+  font-style: normal;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.icon.completed {
+  background-color: green;
+  color: white;
+}
+
+.buttonMassage{
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+.buttonMassage:hover{
+  background-color: lightgrey;
+  text-decoration: underline;
+  color: blue;
+}

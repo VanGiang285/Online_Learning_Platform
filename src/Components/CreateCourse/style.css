@@ -1,0 +1,62 @@
+.footer-link {
+    color: #000000; /* Set link color to blue */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  .footer-icons a {
+    margin-right: 10px; /* Adjust the margin to your preference */
+  }
+
+  .no-style{
+    text-decoration: none;
+    color:black;
+  }
+
+  .no-style:hover{
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-box {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-box:hover .bi, 
+.category-box:hover h6 {
+    color: #1E90FF;
+}
+
+
+.course-card {
+    position: relative;
+}
+
+.badge-category {
+    position: absolute;
+    top: 10px;  
+    left: 10px; 
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+

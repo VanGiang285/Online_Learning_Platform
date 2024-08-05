@@ -1,0 +1,152 @@
+.nav-container {
+    /* background-color: rgba(222, 222, 235, 0.997); */
+    background-color: #EAEAEA;
+}
+
+.nav-menu {
+    padding-top: 16px;
+}
+
+.nav-name a {
+    color: black;
+    text-decoration: none;
+}
+
+.headline-container {
+    background-color: black
+}
+
+.headline-content {
+    width: 80%;
+    padding: 0px;
+    height: 250px;
+    padding-top: 40px;
+}
+
+.headline-button {
+    margin-right: 15px;
+}
+
+.headline-title {
+    color: white;
+}
+
+.headline-button-container {
+    margin-bottom: 15px;
+}
+
+.headline-icon {
+    color: rgb(225, 96, 49);
+    padding-right: 5px;
+}
+
+.headline-list {
+    color: gray;
+    padding: 10px 20px 0px 0px;
+}
+
+.headline-list-container {
+    padding: 0px;
+}
+
+.card-text1 {
+    color: #9D9D9D;
+    text-decoration: line-through;
+    padding-right: 5px;
+}
+
+.card-text2 {
+    color: #F51A1A;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-button {
+    background-color: #FF782D;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+.card-button:hover {
+    background-color: #FFAB2D;
+}
+
+.course-detail-container {
+    width: 80%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.course-detail-content {
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #F8620E;
+    border-radius: 0%;
+    background-color: #EAEAEA;
+    border-bottom: none;
+}
+
+.nav-item {
+    border-right: 1px solid #EAEAEA;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+
+.nav-tabs .nav-link:hover {
+    border-radius: 0%;
+}
+
+.course-tab-content {
+    background-color: #EAEAEA;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:not(.collapsed) h6 {
+    color: #F8620E;
+}
+
+.lesson-header-right {
+    font-size: 14px;
+}
+.lesson-items-container {
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.lesson-items-left :hover {
+    color: #FFAB2D;
+}
+
+.lesson-items-left {
+    color: black;
+    text-decoration: none;
+}
+
+.comment-button {
+    background-color: #FF782D;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+.comment-button:hover {
+    background-color: #FFAB2D;
+}

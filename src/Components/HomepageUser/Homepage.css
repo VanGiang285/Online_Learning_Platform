@@ -1,0 +1,98 @@
+.custom-col-2-4 {
+    flex: 0 0 20%;
+    /* 2.4 / 12 = 0.2 = 20% */
+    max-width: 20%;
+    margin-bottom: 22px;
+}
+
+.footer-link {
+    color: #000000;
+    /* Set link color to blue */
+    text-decoration: none;
+    /* Remove default underline */
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+.footer-icons a {
+    margin-right: 10px;
+    /* Adjust the margin to your preference */
+}
+
+.no-style {
+    text-decoration: none;
+    color: black;
+}
+
+.no-style:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-box {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-box:hover .bi,
+.category-box:hover h6 {
+    color: #1E90FF;
+}
+
+
+.course-card {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.badge-category {
+    position: absolute;
+    top: 10px;
+    /* Adjust the value as needed */
+    left: 10px;
+    /* Adjust the value as needed */
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.scroll-button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 10px;
+}
+
+.customSizeImage {
+    object-fit: cover;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.custom-carousel-item {
+    text-align: center;
+}

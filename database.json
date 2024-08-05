@@ -1,0 +1,5381 @@
+{
+  "role": [
+    {
+      "id": "1",
+      "rName": "admin"
+    },
+    {
+      "id": "2",
+      "rName": "instructor"
+    },
+    {
+      "id": "3",
+      "rName": "student"
+    }
+  ],
+  "account": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "rId": "1"
+    },
+    {
+      "id": "2",
+      "username": "instructor1",
+      "password": "123456",
+      "rId": "2"
+    },
+    {
+      "id": "3",
+      "username": "student",
+      "password": "123456",
+      "rId": "3"
+    },
+    {
+      "id": "4",
+      "username": "instructor2",
+      "password": "123456",
+      "rId": "2"
+    }
+  ],
+  "user": [
+    {
+      "id": "2",
+      "uMail": "giangasd@gmail.com",
+      "uDate": "28/05/2003",
+      "uGender": "male",
+      "uFullName": "Nham Manh Dung",
+      "uPhone": "0966470396",
+      "aId": "2",
+      "rId": "2",
+      "uMajor": "Scientist",
+      "uImage": "/image/CourseList/Account.png"
+    },
+    {
+      "id": "3",
+      "uMail": "giangqwe@gmail.com",
+      "uDate": "28/05/2003",
+      "uGender": "male",
+      "uFullName": "Nguyen Hoang Long",
+      "uPhone": "0966470326",
+      "aId": "3",
+      "rId": "3",
+      "uMajor": "Student",
+      "uImage": "/image/CourseList/Account.png"
+    },
+    {
+      "id": "4",
+      "uMail": "giangqwe@gmail.com",
+      "uDate": "28/05/2003",
+      "uGender": "male",
+      "uFullName": "Tran Duy Manh",
+      "uPhone": "0966470394",
+      "aId": "4",
+      "rId": "2",
+      "uMajor": "Senior Development",
+      "uImage": "/image/CourseList/Account.png"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "icon": "bi bi-1-square",
+      "cateName": "C"
+    },
+    {
+      "id": "2",
+      "icon": "bi bi-2-square",
+      "cateName": "C#"
+    },
+    {
+      "id": "3",
+      "icon": "bi bi-3-square",
+      "cateName": "Java"
+    },
+    {
+      "id": "4",
+      "icon": "bi bi-4-square",
+      "cateName": "React JS"
+    },
+    {
+      "id": "5",
+      "icon": "bi bi-5-square",
+      "cateName": "PHP"
+    }
+  ],
+  "enroll": [
+    {
+      "id": "1",
+      "userId": "3",
+      "courseId": "1",
+      "enRollDate": "04/28/2024",
+      "progress": [
+        {
+          "id": "1",
+          "moduleName": "Module 1",
+          "moduleGrade": 10,
+          "moduleStatus": true
+        },
+        {
+          "id": "2",
+          "moduleName": "Module 2",
+          "moduleGrade": 10,
+          "moduleStatus": true
+        },
+        {
+          "id": "3",
+          "moduleName": "Module 4",
+          "moduleGrade": 10,
+          "moduleStatus": true
+        },
+        {
+          "id": "4",
+          "moduleName": "Module 4",
+          "moduleGrade": 10,
+          "moduleStatus": true
+        }
+      ],
+      "score": 10,
+      "status": true
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "courseId": "2",
+      "enRollDate": "04/28/2024",
+      "progress": [
+        {
+          "id": "1",
+          "moduleName": "Module 1",
+          "moduleGrade": 0,
+          "moduleStatus": true
+        },
+        {
+          "id": "2",
+          "moduleName": "Module 2",
+          "moduleGrade": 0,
+          "moduleStatus": true
+        },
+        {
+          "id": "3",
+          "moduleName": "Module 4",
+          "moduleGrade": 0,
+          "moduleStatus": true
+        },
+        {
+          "id": "4",
+          "moduleName": "Module 4",
+          "moduleGrade": 0,
+          "moduleStatus": true
+        }
+      ],
+      "score": 0,
+      "status": true
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "courseId": "3",
+      "enRollDate": "04/28/2024",
+      "progress": [
+        {
+          "id": "1",
+          "moduleName": "Module 1",
+          "moduleGrade": 0,
+          "moduleStatus": false
+        },
+        {
+          "id": "2",
+          "moduleName": "Module 2",
+          "moduleGrade": 0,
+          "moduleStatus": false
+        },
+        {
+          "id": "3",
+          "moduleName": "Module 4",
+          "moduleGrade": 0,
+          "moduleStatus": false
+        },
+        {
+          "id": "4",
+          "moduleName": "Module 4",
+          "moduleGrade": 0,
+          "moduleStatus": false
+        }
+      ],
+      "score": 0,
+      "status": false
+    }
+  ],
+  "course": [
+    {
+      "id": "1",
+      "cName": "C Course",
+      "cDescription": "C is a procedural programming language with a static system that has the functionality of structured programming, recursion, and lexical variable scoping. C was created with constructs that transfer well to common hardware instructions",
+      "cPrice": 20,
+      "instructorId": "2",
+      "uCreateDate": "3/7/2024",
+      "cRate": "5",
+      "cateId": "1",
+      "cEnrolledStudent": 19,
+      "cOverview": "C",
+      "cImage": "/image/CoursePage/1.png",
+      "courseModule": [
+        {
+          "id": "1",
+          "name": "Module 1: Introduction to C",
+          "cVideo": [
+            {
+              "videoId": "1",
+              "videoTitle": "C tutorial for beginners 🕹️",
+              "videoUrl": "https://www.youtube.com/watch?v=nrbBmoINqtk"
+            },
+            {
+              "videoId": "2",
+              "videoTitle": "C compile and run a C program with cmd 🏗️ ",
+              "videoUrl": "https://www.youtube.com/watch?v=ME1CNzcHOCY"
+            },
+            {
+              "videoId": "3",
+              "videoTitle": "C comments & escape sequences 💬",
+              "videoUrl": "https://www.youtube.com/watch?v=8Vt9k0bh_Q8"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "1",
+              "question": "Which of the following is a correct syntax to declare a variable in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int x;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "integer x;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "x : int;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "x int;"
+                }
+              ],
+              "answer": "int x;"
+            },
+            {
+              "id": "2",
+              "question": "Which of the following is the correct syntax to include a library in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "#library <stdio.h>"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "#include <stdio.h>"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "include <stdio.h>"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "library <stdio.h>"
+                }
+              ],
+              "answer": "#include <stdio.h>"
+            },
+            {
+              "id": "3",
+              "question": "Which of the following is a valid loop in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "do-while"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "repeat-until"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "foreach"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "loop"
+                }
+              ],
+              "answer": "do-while"
+            },
+            {
+              "id": "4",
+              "question": "What is the size of an integer variable in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "2 bytes"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "4 bytes"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "8 bytes"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Depends on the compiler"
+                }
+              ],
+              "answer": "Depends on the compiler"
+            },
+            {
+              "id": "5",
+              "question": "Which of the following is used to print a message to the screen in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "print()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "echo()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "printf()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "println()"
+                }
+              ],
+              "answer": "printf()"
+            },
+            {
+              "id": "6",
+              "question": "What is the output of the following code? int x = 5; printf(\"%d\", x);",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "5"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "x"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "%d"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Error"
+                }
+              ],
+              "answer": "5"
+            },
+            {
+              "id": "7",
+              "question": "Which keyword is used to define a constant in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "constant"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "const"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "define"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "static"
+                }
+              ],
+              "answer": "const"
+            },
+            {
+              "id": "8",
+              "question": "How do you comment a single line in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "// this is a comment"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "/* this is a comment */"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "# this is a comment"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "// this is a comment //"
+                }
+              ],
+              "answer": "// this is a comment"
+            },
+            {
+              "id": "9",
+              "question": "Which operator is used for bitwise AND in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "&"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "&&"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "|"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "||"
+                }
+              ],
+              "answer": "&"
+            },
+            {
+              "id": "10",
+              "question": "What will be the output of the following code? int x = 10; if(x > 0) { printf(\"Positive\"); } else { printf(\"Negative\"); }",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Positive"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Negative"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Error"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "0"
+                }
+              ],
+              "answer": "Positive"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Module 2: Variable in C",
+          "cVideo": [
+            {
+              "videoId": "4",
+              "videoTitle": "C variables 🎯",
+              "videoUrl": "https://www.youtube.com/watch?v=aIQk1O08zpg"
+            },
+            {
+              "videoId": "5",
+              "videoTitle": "C data types 📊",
+              "videoUrl": "https://www.youtube.com/watch?v=1eyf1-RU_eg"
+            },
+            {
+              "videoId": "6",
+              "videoTitle": "C format specifiers 🔧",
+              "videoUrl": "https://www.youtube.com/watch?v=iLZOL-hmr7M"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "11",
+              "question": "Which of the following is a valid integer data type in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "integer"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "float"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "char"
+                }
+              ],
+              "answer": "int"
+            },
+            {
+              "id": "12",
+              "question": "Which of the following is the correct way to declare an array in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int arr[10];"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "array int[10];"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "int[10] arr;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "int arr;"
+                }
+              ],
+              "answer": "int arr[10];"
+            },
+            {
+              "id": "13",
+              "question": "How do you declare a string in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "char str[] = \"Hello\";"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "string str = \"Hello\";"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "str = \"Hello\";"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "char[] str = \"Hello\";"
+                }
+              ],
+              "answer": "char str[] = \"Hello\";"
+            },
+            {
+              "id": "14",
+              "question": "What is the return type of a function that does not return any value?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "float"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "void"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "char"
+                }
+              ],
+              "answer": "void"
+            },
+            {
+              "id": "15",
+              "question": "How do you call a function in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "function_name();"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "call function_name();"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "invoke function_name();"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "execute function_name();"
+                }
+              ],
+              "answer": "function_name();"
+            },
+            {
+              "id": "16",
+              "question": "Which of the following is used to define a constant in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "#define"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "constant"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "const"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "static"
+                }
+              ],
+              "answer": "#define"
+            },
+            {
+              "id": "17",
+              "question": "What is the correct syntax to declare a pointer in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int *ptr;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "int ptr*;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "pointer int *ptr;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "int * ptr;"
+                }
+              ],
+              "answer": "int *ptr;"
+            },
+            {
+              "id": "18",
+              "question": "Which of the following is the correct syntax to use the malloc function in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "ptr = (int *) malloc(size * sizeof(int));"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "ptr = malloc(size);"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "ptr = (int) malloc(size * sizeof(int));"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "malloc(ptr, size);"
+                }
+              ],
+              "answer": "ptr = (int *) malloc(size * sizeof(int));"
+            },
+            {
+              "id": "19",
+              "question": "How do you free dynamically allocated memory in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "delete(ptr);"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "free(ptr);"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "release(ptr);"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "clear(ptr);"
+                }
+              ],
+              "answer": "free(ptr);"
+            },
+            {
+              "id": "20",
+              "question": "What is the purpose of the 'return' statement in a function?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To return a value to the caller"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To exit the program"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To continue the program"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To declare a variable"
+                }
+              ],
+              "answer": "To return a value to the caller"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Module 3: C Augmented Assignment Operators",
+          "cVideo": [
+            {
+              "videoId": "7",
+              "videoTitle": "C constants 🚫",
+              "videoUrl": "https://www.youtube.com/watch?v=Y17nTXAWBqs"
+            },
+            {
+              "videoId": "8",
+              "videoTitle": "C arithmetic operators ➗",
+              "videoUrl": "https://www.youtube.com/watch?v=9E3I1URu6fc"
+            },
+            {
+              "videoId": "9",
+              "videoTitle": "C augmented assignment operators 🧮",
+              "videoUrl": "https://www.youtube.com/watch?v=btgyQ-b3aYI"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "21",
+              "question": "What is a pointer in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A variable that stores the address of another variable"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A variable that stores a value"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A function that returns a value"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A constant that holds a value"
+                }
+              ],
+              "answer": "A variable that stores the address of another variable"
+            },
+            {
+              "id": "22",
+              "question": "How do you access the value of a variable through its pointer in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "*ptr"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "&ptr"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "ptr"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "pointer"
+                }
+              ],
+              "answer": "*ptr"
+            },
+            {
+              "id": "23",
+              "question": "What is the correct syntax to define a structure in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "struct { int x; }"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "structure { int x; }"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "struct { x int; }"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "structure { x int; }"
+                }
+              ],
+              "answer": "struct { int x; }"
+            },
+            {
+              "id": "24",
+              "question": "What is the purpose of a union in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To store different data types in the same memory location"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To store different data types in different memory locations"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To define a collection of related variables"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To declare a constant"
+                }
+              ],
+              "answer": "To store different data types in the same memory location"
+            },
+            {
+              "id": "25",
+              "question": "Which of the following is the correct syntax to open a file in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "FILE *fp = fopen(\"file.txt\", \"r\");"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "file fp = fopen(\"file.txt\", \"r\");"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "fopen(\"file.txt\", \"r\");"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "FILE *fp = open(\"file.txt\", \"r\");"
+                }
+              ],
+              "answer": "FILE *fp = fopen(\"file.txt\", \"r\");"
+            },
+            {
+              "id": "26",
+              "question": "How do you write data to a file in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "fprintf(fp, \"data\");"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "write(fp, \"data\");"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "fputs(fp, \"data\");"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "filewrite(fp, \"data\");"
+                }
+              ],
+              "answer": "fprintf(fp, \"data\");"
+            },
+            {
+              "id": "27",
+              "question": "What is the correct way to close a file in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "fclose(fp);"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "close(fp);"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "end(fp);"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "fileclose(fp);"
+                }
+              ],
+              "answer": "fclose(fp);"
+            },
+            {
+              "id": "28",
+              "question": "How do you read data from a file in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "fscanf(fp, \"%s\", buffer);"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "read(fp, \"%s\", buffer);"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "fread(fp, \"%s\", buffer);"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "fileread(fp, \"%s\", buffer);"
+                }
+              ],
+              "answer": "fscanf(fp, \"%s\", buffer);"
+            },
+            {
+              "id": "29",
+              "question": "Which keyword is used to define a macro in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "#define"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "#macro"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "macro"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "define"
+                }
+              ],
+              "answer": "#define"
+            },
+            {
+              "id": "30",
+              "question": "What is the purpose of the 'sizeof' operator in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To determine the size of a data type or variable"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To allocate memory"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To free memory"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To declare a constant"
+                }
+              ],
+              "answer": "To determine the size of a data type or variable"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Module 4: Advanced C Concepts",
+          "cVideo": [
+            {
+              "videoId": "10",
+              "videoTitle": "C user input ⌨️",
+              "videoUrl": "https://www.youtube.com/watch?v=Ws-mVAJDFAw"
+            },
+            {
+              "videoId": "11",
+              "videoTitle": "C math functions 📚",
+              "videoUrl": "https://www.youtube.com/watch?v=z9m3Qr3SowE"
+            },
+            {
+              "videoId": "12",
+              "videoTitle": "C circle circumference program ⚪",
+              "videoUrl": "https://www.youtube.com/watch?v=REtiFfgj8SU"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "31",
+              "question": "Which of the following is a preprocessor directive in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "#include"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "import"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "include"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "#import"
+                }
+              ],
+              "answer": "#include"
+            },
+            {
+              "id": "32",
+              "question": "What does the 'malloc' function do in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Allocates memory dynamically"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Frees allocated memory"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Copies memory"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Moves memory"
+                }
+              ],
+              "answer": "Allocates memory dynamically"
+            },
+            {
+              "id": "33",
+              "question": "Which function is used to release allocated memory in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "free"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "release"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "delete"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "clear"
+                }
+              ],
+              "answer": "free"
+            },
+            {
+              "id": "34",
+              "question": "Which of the following is a type of error that occurs during program execution?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Runtime error"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Syntax error"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Compilation error"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Linker error"
+                }
+              ],
+              "answer": "Runtime error"
+            },
+            {
+              "id": "35",
+              "question": "How do you handle errors in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Using if statements"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Using try-catch blocks"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Using error handling functions like perror()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Using macros"
+                }
+              ],
+              "answer": "Using error handling functions like perror()"
+            },
+            {
+              "id": "36",
+              "question": "What does the 'calloc' function do in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Allocates memory and initializes it to zero"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Allocates memory without initialization"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Reallocates memory"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Frees allocated memory"
+                }
+              ],
+              "answer": "Allocates memory and initializes it to zero"
+            },
+            {
+              "id": "37",
+              "question": "Which of the following is used to check for dynamic memory allocation errors?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Checking if the pointer returned by malloc is NULL"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Checking if the pointer returned by free is NULL"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Checking if the pointer returned by sizeof is NULL"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Checking if the pointer returned by struct is NULL"
+                }
+              ],
+              "answer": "Checking if the pointer returned by malloc is NULL"
+            },
+            {
+              "id": "38",
+              "question": "What is the purpose of the 'realloc' function in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To resize previously allocated memory"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To allocate new memory"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To free allocated memory"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To copy memory"
+                }
+              ],
+              "answer": "To resize previously allocated memory"
+            },
+            {
+              "id": "39",
+              "question": "How do you write formatted data to a string in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "sprintf"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "printf"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "fprintf"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "fwrite"
+                }
+              ],
+              "answer": "sprintf"
+            },
+            {
+              "id": "40",
+              "question": "Which of the following is a function to allocate memory for an array in C?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "calloc"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "array_alloc"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "malloc_array"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "alloc_array"
+                }
+              ],
+              "answer": "calloc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cName": "C# Course",
+      "cDescription": "C# is a modern, object-oriented programming language developed by Microsoft as part of the .NET framework. It offers a robust type system, garbage collection, and support for multiple programming paradigms.",
+      "cPrice": 25,
+      "instructorId": "2",
+      "uCreateDate": "5/15/2024",
+      "cRate": "4.8",
+      "cateId": "2",
+      "cEnrolledStudent": 24,
+      "cOverview": "C#",
+      "cImage": "/image/CoursePage/2.png",
+      "courseModule": [
+        {
+          "id": "1",
+          "name": "Module 1: C# Basics",
+          "cVideo": [
+            {
+              "videoId": "1",
+              "videoTitle": "Introduction to C# and .NET Framework 🚀",
+              "videoUrl": "https://www.youtube.com/watch?v=GhQdlIFylQ8"
+            },
+            {
+              "videoId": "2",
+              "videoTitle": "C# Syntax and Data Types 📊",
+              "videoUrl": "https://www.youtube.com/watch?v=gfkTfcpWqAY"
+            },
+            {
+              "videoId": "3",
+              "videoTitle": "Variables and Operators in C# 🔢",
+              "videoUrl": "https://www.youtube.com/watch?v=GcFJjpMFJvI"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "1",
+              "question": "What is the correct file extension for C# source files?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": ".cs"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": ".cpp"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": ".c"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": ".csharp"
+                }
+              ],
+              "answer": ".cs"
+            },
+            {
+              "id": "2",
+              "question": "Which of the following is not a valid C# data type?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "float"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "var"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "real"
+                }
+              ],
+              "answer": "real"
+            },
+            {
+              "id": "3",
+              "question": "What is the correct way to declare a constant in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "const int MAX_VALUE = 100;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "constant int MAX_VALUE = 100;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "final int MAX_VALUE = 100;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "#define MAX_VALUE 100"
+                }
+              ],
+              "answer": "const int MAX_VALUE = 100;"
+            },
+            {
+              "id": "4",
+              "question": "Which operator is used for string concatenation in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "+"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "&"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "++"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "."
+                }
+              ],
+              "answer": "+"
+            },
+            {
+              "id": "5",
+              "question": "What is the purpose of the 'using' keyword in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To import namespaces"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To define a class"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To create an object"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To declare a variable"
+                }
+              ],
+              "answer": "To import namespaces"
+            },
+            {
+              "id": "6",
+              "question": "Which of the following is the correct way to declare a variable in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int x = 5;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "x = 5;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "integer x = 5;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "var x = 5;"
+                }
+              ],
+              "answer": "int x = 5;"
+            },
+            {
+              "id": "7",
+              "question": "What is the purpose of the 'Console.WriteLine()' method in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To print text to the console"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To read input from the console"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To clear the console"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To close the console"
+                }
+              ],
+              "answer": "To print text to the console"
+            },
+            {
+              "id": "8",
+              "question": "Which of the following is not a valid access modifier in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "public"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "private"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "protected"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "package"
+                }
+              ],
+              "answer": "package"
+            },
+            {
+              "id": "9",
+              "question": "What is the correct way to declare a single-line comment in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "// This is a comment"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "/* This is a comment */"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "# This is a comment"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "<!-- This is a comment -->"
+                }
+              ],
+              "answer": "// This is a comment"
+            },
+            {
+              "id": "10",
+              "question": "Which of the following is used to read a line of text from the console in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Console.ReadLine()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Console.Read()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Console.Write()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Console.Input()"
+                }
+              ],
+              "answer": "Console.ReadLine()"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Module 2: Control Structures and Functions",
+          "cVideo": [
+            {
+              "videoId": "4",
+              "videoTitle": "Conditional Statements in C# 🔀",
+              "videoUrl": "https://www.youtube.com/watch?v=QwygwfqOHsI"
+            },
+            {
+              "videoId": "5",
+              "videoTitle": "Loops in C# 🔁",
+              "videoUrl": "https://www.youtube.com/watch?v=QwygwfqOHsI"
+            },
+            {
+              "videoId": "6",
+              "videoTitle": "Methods and Functions in C# 📞",
+              "videoUrl": "https://www.youtube.com/watch?v=QwygwfqOHsI"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "11",
+              "question": "Which of the following is not a looping structure in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "for"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "while"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "do-while"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "repeat-until"
+                }
+              ],
+              "answer": "repeat-until"
+            },
+            {
+              "id": "12",
+              "question": "What is the correct syntax for an if-else statement in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "if (condition) { } else { }"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "if (condition) then { } else { }"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "if condition { } else { }"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "if (condition) { } elseif { }"
+                }
+              ],
+              "answer": "if (condition) { } else { }"
+            },
+            {
+              "id": "13",
+              "question": "Which keyword is used to define a method in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "function"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "method"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "void"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "def"
+                }
+              ],
+              "answer": "void"
+            },
+            {
+              "id": "14",
+              "question": "What is the purpose of the 'break' statement in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To exit a loop or switch statement"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To skip the current iteration of a loop"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To continue to the next iteration of a loop"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To end the program execution"
+                }
+              ],
+              "answer": "To exit a loop or switch statement"
+            },
+            {
+              "id": "15",
+              "question": "Which of the following is used to handle exceptions in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "try-catch"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "if-else"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "for-each"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "switch-case"
+                }
+              ],
+              "answer": "try-catch"
+            },
+            {
+              "id": "16",
+              "question": "What is the purpose of the 'return' statement in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To exit a method and return a value"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To define a variable"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To print a value to the console"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To declare a class"
+                }
+              ],
+              "answer": "To exit a method and return a value"
+            },
+            {
+              "id": "17",
+              "question": "Which of the following is not a valid parameter passing method in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "By value"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "By reference"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Out parameter"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "By pointer"
+                }
+              ],
+              "answer": "By pointer"
+            },
+            {
+              "id": "18",
+              "question": "What is the purpose of the 'switch' statement in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To handle multiple conditions"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To define a loop"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To declare a variable"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To create an object"
+                }
+              ],
+              "answer": "To handle multiple conditions"
+            },
+            {
+              "id": "19",
+              "question": "Which keyword is used to define an optional parameter in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "optional"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "params"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "default"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "nullable"
+                }
+              ],
+              "answer": "params"
+            },
+            {
+              "id": "20",
+              "question": "What is the purpose of the 'continue' statement in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To skip the rest of the current iteration and move to the next one"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To exit a loop"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To return a value from a method"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To define a new loop"
+                }
+              ],
+              "answer": "To skip the rest of the current iteration and move to the next one"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Module 3: Object-Oriented Programming in C#",
+          "cVideo": [
+            {
+              "videoId": "7",
+              "videoTitle": "Classes and Objects in C# 🏗️",
+              "videoUrl": "https://www.youtube.com/watch?v=GhQdlIFylQ8"
+            },
+            {
+              "videoId": "8",
+              "videoTitle": "Inheritance and Polymorphism 🌳",
+              "videoUrl": "https://www.youtube.com/watch?v=GhQdlIFylQ8"
+            },
+            {
+              "videoId": "9",
+              "videoTitle": "Interfaces and Abstract Classes 🔍",
+              "videoUrl": "https://www.youtube.com/watch?v=GhQdlIFylQ8"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "21",
+              "question": "What keyword is used to create a new instance of a class in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "new"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "create"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "instance"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "class"
+                }
+              ],
+              "answer": "new"
+            },
+            {
+              "id": "22",
+              "question": "Which of the following is not a pillar of Object-Oriented Programming?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Encapsulation"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Inheritance"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Polymorphism"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Compilation"
+                }
+              ],
+              "answer": "Compilation"
+            },
+            {
+              "id": "23",
+              "question": "What is the purpose of the 'virtual' keyword in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To allow a method to be overridden in derived classes"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create a new instance of a class"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To declare a constant"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To define a static method"
+                }
+              ],
+              "answer": "To allow a method to be overridden in derived classes"
+            },
+            {
+              "id": "24",
+              "question": "What is an interface in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A contract that specifies a set of methods and properties"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A class that cannot be instantiated"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A method that returns multiple values"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A type of loop in C#"
+                }
+              ],
+              "answer": "A contract that specifies a set of methods and properties"
+            },
+            {
+              "id": "25",
+              "question": "What is the purpose of the 'sealed' keyword in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To prevent a class from being inherited"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create a static class"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To define a constant"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To declare a private method"
+                }
+              ],
+              "answer": "To prevent a class from being inherited"
+            },
+            {
+              "id": "26",
+              "question": "What is the difference between an abstract class and an interface in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "An abstract class can have implementation, an interface cannot"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "An interface can be instantiated, an abstract class cannot"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "An abstract class supports multiple inheritance, an interface does not"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "There is no difference"
+                }
+              ],
+              "answer": "An abstract class can have implementation, an interface cannot"
+            },
+            {
+              "id": "27",
+              "question": "What is the purpose of the 'base' keyword in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To call a method or constructor from a base class"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To declare a variable"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To create a new instance of a class"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To define a static method"
+                }
+              ],
+              "answer": "To call a method or constructor from a base class"
+            },
+            {
+              "id": "28",
+              "question": "What is method overloading in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Having multiple methods with the same name but different parameters"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Changing the implementation of a method in a derived class"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Creating a new instance of a class"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Declaring a method as static"
+                }
+              ],
+              "answer": "Having multiple methods with the same name but different parameters"
+            },
+            {
+              "id": "29",
+              "question": "What is the purpose of the 'this' keyword in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To refer to the current instance of the class"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create a new instance of a class"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To call a method from a base class"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To declare a static method"
+                }
+              ],
+              "answer": "To refer to the current instance of the class"
+            },
+            {
+              "id": "30",
+              "question": "What is a constructor in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A special method that is called when an object is created"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A method that destroys an object"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A method that returns a value"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A keyword used to create a new instance of a class"
+                }
+              ],
+              "answer": "A special method that is called when an object is created"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Module 4: Advanced C# Concepts",
+          "cVideo": [
+            {
+              "videoId": "10",
+              "videoTitle": "Generics in C# 🧬",
+              "videoUrl": "https://www.youtube.com/watch?v=GhQdlIFylQ8"
+            },
+            {
+              "videoId": "11",
+              "videoTitle": "LINQ and Lambda Expressions 🔍",
+              "videoUrl": "https://www.youtube.com/watch?v=GhQdlIFylQ8"
+            },
+            {
+              "videoId": "12",
+              "videoTitle": "Asynchronous Programming with async/await ⏳",
+              "videoUrl": "https://www.youtube.com/watch?v=GhQdlIFylQ8"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "31",
+              "question": "What is the purpose of generics in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To create type-safe and reusable code"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create instances of a class"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To define abstract classes"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To implement interfaces"
+                }
+              ],
+              "answer": "To create type-safe and reusable code"
+            },
+            {
+              "id": "32",
+              "question": "What does LINQ stand for in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Language Integrated Query"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Linked Interface for New Queries"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "List of Integrated New Questions"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Looped Inquiry Network Query"
+                }
+              ],
+              "answer": "Language Integrated Query"
+            },
+            {
+              "id": "33",
+              "question": "What is the purpose of the 'async' keyword in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To define an asynchronous method"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create a new thread"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To declare a variable"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To implement an interface"
+                }
+              ],
+              "answer": "To define an asynchronous method"
+            },
+            {
+              "id": "34",
+              "question": "What is a lambda expression in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "An anonymous function"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A type of loop"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A class constructor"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A method overload"
+                }
+              ],
+              "answer": "An anonymous function"
+            },
+            {
+              "id": "35",
+              "question": "What is the purpose of the 'yield' keyword in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To create an iterator"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To define an asynchronous method"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To implement an interface"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To create a generic class"
+                }
+              ],
+              "answer": "To create an iterator"
+            },
+            {
+              "id": "36",
+              "question": "What is a delegate in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A type that represents references to methods"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A type of exception"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A keyword to create objects"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A loop construct"
+                }
+              ],
+              "answer": "A type that represents references to methods"
+            },
+            {
+              "id": "37",
+              "question": "What is the purpose of the 'using' statement in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To ensure the proper disposal of resources"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To import namespaces"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To create a new instance of a class"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To define an asynchronous method"
+                }
+              ],
+              "answer": "To ensure the proper disposal of resources"
+            },
+            {
+              "id": "38",
+              "question": "What is a nullable type in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A value type that can also be assigned null"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A reference type"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A type of exception"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A type of loop"
+                }
+              ],
+              "answer": "A value type that can also be assigned null"
+            },
+            {
+              "id": "39",
+              "question": "What is the purpose of the 'event' keyword in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To declare a member that clients can subscribe to"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create a new instance of a class"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To define an asynchronous method"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To implement an interface"
+                }
+              ],
+              "answer": "To declare a member that clients can subscribe to"
+            },
+            {
+              "id": "40",
+              "question": "What is the purpose of the 'Task' class in C#?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To represent an asynchronous operation"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create a new thread"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To define a constant"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To implement an interface"
+                }
+              ],
+              "answer": "To represent an asynchronous operation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cName": "Java Course",
+      "cDescription": "Java is a versatile, object-oriented programming language known for its 'write once, run anywhere' principle. It's widely used for developing enterprise-level applications, Android apps, and web services.",
+      "cPrice": 25,
+      "instructorId": "4",
+      "uCreateDate": "5/15/2024",
+      "cRate": "4.8",
+      "cateId": "3",
+      "cEnrolledStudent": 27,
+      "cOverview": "Java",
+      "cImage": "/image/CoursePage/3.png",
+      "courseModule": [
+        {
+          "id": "1",
+          "name": "Module 1: Java Basics",
+          "cVideo": [
+            {
+              "videoId": "1",
+              "videoTitle": "Introduction to Java Programming 🖥️",
+              "videoUrl": "https://www.youtube.com/watch?v=NBIUbTddde4"
+            },
+            {
+              "videoId": "2",
+              "videoTitle": "Setting up Java Development Environment ⚙️",
+              "videoUrl": "https://www.youtube.com/watch?v=so1iUWaLmKA"
+            },
+            {
+              "videoId": "3",
+              "videoTitle": "Java Syntax and Basic Concepts 📝",
+              "videoUrl": "https://www.youtube.com/watch?v=wAEPokhj5Q4"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "1",
+              "question": "Which of the following is the correct way to declare a variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int x;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "variable x;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "x = int;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "declare x as int;"
+                }
+              ],
+              "answer": "int x;"
+            },
+            {
+              "id": "2",
+              "question": "What is the correct way to start the main method in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "public static void main(String[] args)"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "public void main(String args[])"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "static void main(String args)"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "void main()"
+                }
+              ],
+              "answer": "public static void main(String[] args)"
+            },
+            {
+              "id": "3",
+              "question": "Which keyword is used to define a class in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "class"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "define"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "struct"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "object"
+                }
+              ],
+              "answer": "class"
+            },
+            {
+              "id": "4",
+              "question": "What is the purpose of the 'extends' keyword in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To implement an interface"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create an object"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To inherit from a class"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To define a method"
+                }
+              ],
+              "answer": "To inherit from a class"
+            },
+            {
+              "id": "5",
+              "question": "Which access modifier makes a member accessible only within its own class?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "public"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "protected"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "private"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "default"
+                }
+              ],
+              "answer": "private"
+            },
+            {
+              "id": "6",
+              "question": "What is the purpose of the 'abstract' keyword in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To create an object"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To define a class that cannot be instantiated"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To implement an interface"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To declare a variable"
+                }
+              ],
+              "answer": "To define a class that cannot be instantiated"
+            },
+            {
+              "id": "7",
+              "question": "Which interface is the root of the collection hierarchy?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "List"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Set"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Collection"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Map"
+                }
+              ],
+              "answer": "Collection"
+            },
+            {
+              "id": "8",
+              "question": "Which collection type allows duplicate elements?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Set"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "List"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Map"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Queue"
+                }
+              ],
+              "answer": "List"
+            },
+            {
+              "id": "9",
+              "question": "What is the purpose of Generics in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To increase the size of collections"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To provide type safety and reduce casting"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To create new data types"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To improve performance of collections"
+                }
+              ],
+              "answer": "To provide type safety and reduce casting"
+            },
+            {
+              "id": "10",
+              "question": "What is a correct syntax to output Hello World in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Echo (HelloWorld)"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Echo (HiWorld)"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Echo (ByeWorld)"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Echo (StartWorld)"
+                }
+              ],
+              "answer": "Echo (HelloWorld)"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Module 2: Object-Oriented Programming in Java",
+          "cVideo": [
+            {
+              "videoId": "4",
+              "videoTitle": "Classes and Objects in Java 🏗️",
+              "videoUrl": "https://www.youtube.com/watch?v=pZHJU9T0vwE"
+            },
+            {
+              "videoId": "5",
+              "videoTitle": "Inheritance and Polymorphism 🌳",
+              "videoUrl": "https://www.youtube.com/watch?v=rWCnZKF-U3Q"
+            },
+            {
+              "videoId": "6",
+              "videoTitle": "Encapsulation and Abstraction 🔒",
+              "videoUrl": "https://www.youtube.com/watch?v=w0VTlSOXBs8"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "11",
+              "question": "Which method must be implemented by all threads?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "run()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "start()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "execute()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "main()"
+                }
+              ],
+              "answer": "run()"
+            },
+            {
+              "id": "12",
+              "question": "Which keyword is used to prevent a method from being overridden?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "static"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "final"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "abstract"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "synchronized"
+                }
+              ],
+              "answer": "final"
+            },
+            {
+              "id": "13",
+              "question": "What is the default value of a boolean variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "true"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "false"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "0"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "null"
+                }
+              ],
+              "answer": "false"
+            },
+            {
+              "id": "14",
+              "question": "Which method is used to find the length of a string in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "length()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "size()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "getLength()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "getSize()"
+                }
+              ],
+              "answer": "length()"
+            },
+            {
+              "id": "15",
+              "question": "Which exception is thrown when an array is accessed with an illegal index?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "ArrayIndexOutOfBoundsException"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "IllegalArgumentException"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "NullPointerException"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "IndexNotFoundException"
+                }
+              ],
+              "answer": "ArrayIndexOutOfBoundsException"
+            },
+            {
+              "id": "16",
+              "question": "Which keyword is used to inherit a class in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "implement"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "extends"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "inherits"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "super"
+                }
+              ],
+              "answer": "extends"
+            },
+            {
+              "id": "17",
+              "question": "Which method is used to start a thread in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "run()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "start()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "execute()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "begin()"
+                }
+              ],
+              "answer": "start()"
+            },
+            {
+              "id": "18",
+              "question": "Which of the following is not a primitive data type in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "String"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "float"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "boolean"
+                }
+              ],
+              "answer": "String"
+            },
+            {
+              "id": "19",
+              "question": "Which method is called when an object is created in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "constructor"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "init()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "create()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "new()"
+                }
+              ],
+              "answer": "constructor"
+            },
+            {
+              "id": "20",
+              "question": "Which of the following is not a Java keyword?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "static"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Boolean"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "void"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "private"
+                }
+              ],
+              "answer": "Boolean"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Module 3: Java Collections and Generics",
+          "cVideo": [
+            {
+              "videoId": "7",
+              "videoTitle": "Java Collections Framework Overview 📚",
+              "videoUrl": "https://www.youtube.com/watch?v=VMZLPl16P5c"
+            },
+            {
+              "videoId": "8",
+              "videoTitle": "Lists, Sets, and Maps in Java 🗃️",
+              "videoUrl": "https://www.youtube.com/watch?v=MY03bt_0JQI"
+            },
+            {
+              "videoId": "9",
+              "videoTitle": "Generics in Java 🧬",
+              "videoUrl": "https://www.youtube.com/watch?v=Om3qzMoaIUo"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "21",
+              "question": "What is the size of an int variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "8 bits"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "16 bits"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "32 bits"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "64 bits"
+                }
+              ],
+              "answer": "32 bits"
+            },
+            {
+              "id": "22",
+              "question": "Which of the following is a valid declaration of a char variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "char c = 'A';"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "char c = 'AB';"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "char c = \"A\";"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "char c = 65;"
+                }
+              ],
+              "answer": "char c = 'A';"
+            },
+            {
+              "id": "23",
+              "question": "Which of the following is the correct way to declare a constant in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "final int x = 10;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "constant int x = 10;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "static int x = 10;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "const int x = 10;"
+                }
+              ],
+              "answer": "final int x = 10;"
+            },
+            {
+              "id": "24",
+              "question": "Which method is used to find the character at a specific index in a string?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "charAt()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "getChar()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "indexOf()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "substring()"
+                }
+              ],
+              "answer": "charAt()"
+            },
+            {
+              "id": "25",
+              "question": "Which of the following is used to handle exceptions in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "try-catch"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "if-else"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "for-loop"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "while-loop"
+                }
+              ],
+              "answer": "try-catch"
+            },
+            {
+              "id": "26",
+              "question": "Which of the following is not a valid Java identifier?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "myVar"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "MyVar"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "_myVar"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "2myVar"
+                }
+              ],
+              "answer": "2myVar"
+            },
+            {
+              "id": "27",
+              "question": "Which of the following is used to create an object in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "new"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "create"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "initialize"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "start"
+                }
+              ],
+              "answer": "new"
+            },
+            {
+              "id": "28",
+              "question": "Which method is used to compare two strings in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "equals()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "compare()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "compareTo()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "equalsIgnoreCase()"
+                }
+              ],
+              "answer": "equals()"
+            },
+            {
+              "id": "29",
+              "question": "Which keyword is used to create a subclass in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "extends"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "implements"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "inherits"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "instanceof"
+                }
+              ],
+              "answer": "extends"
+            },
+            {
+              "id": "30",
+              "question": "Which of the following is the correct way to declare a float variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "float f = 1.0f;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "float f = 1.0;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "float f = \"1.0f\";"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "float f = '1.0';"
+                }
+              ],
+              "answer": "float f = 1.0f;"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Module 4: Java Exception Handling and I/O",
+          "cVideo": [
+            {
+              "videoId": "10",
+              "videoTitle": "Exception Handling in Java ⚠️",
+              "videoUrl": "https://www.youtube.com/watch?v=919IUhotDCo"
+            },
+            {
+              "videoId": "11",
+              "videoTitle": "Java I/O Streams 🌊",
+              "videoUrl": "https://www.youtube.com/watch?v=t6gmQaTMTtM"
+            },
+            {
+              "videoId": "12",
+              "videoTitle": "Working with Files in Java 📂",
+              "videoUrl": "https://www.youtube.com/watch?v=Rn16ugyorX0"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "31",
+              "question": "Which of the following is used to define an interface in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "interface"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "abstract"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "implements"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "class"
+                }
+              ],
+              "answer": "interface"
+            },
+            {
+              "id": "32",
+              "question": "Which of the following is the parent class of all classes in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Object"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Class"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "System"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Parent"
+                }
+              ],
+              "answer": "Object"
+            },
+            {
+              "id": "33",
+              "question": "Which keyword is used to refer to the current object in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "this"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "super"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "self"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "current"
+                }
+              ],
+              "answer": "this"
+            },
+            {
+              "id": "34",
+              "question": "Which of the following is the correct way to declare a double variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "double d = 1.0;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "double d = 1;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "double d = 1.0d;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "double d = \"1.0\";"
+                }
+              ],
+              "answer": "double d = 1.0;"
+            },
+            {
+              "id": "35",
+              "question": "Which of the following is the correct way to declare an array in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "int[] arr = new int[10];"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "int arr = new int[10];"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "int[] arr = int[10];"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "int arr[] = new int[10];"
+                }
+              ],
+              "answer": "int[] arr = new int[10];"
+            },
+            {
+              "id": "36",
+              "question": "Which method is used to remove leading and trailing whitespace in a string?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "trim()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "strip()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "clean()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "deleteWhitespace()"
+                }
+              ],
+              "answer": "trim()"
+            },
+            {
+              "id": "37",
+              "question": "Which of the following is the correct way to declare a byte variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "byte b = 10;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "byte b = 1000;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "byte b = '10';"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "byte b = 1.0;"
+                }
+              ],
+              "answer": "byte b = 10;"
+            },
+            {
+              "id": "38",
+              "question": "Which method is used to concatenate two strings in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "concat()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "join()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "append()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "combine()"
+                }
+              ],
+              "answer": "concat()"
+            },
+            {
+              "id": "39",
+              "question": "Which of the following is the correct way to declare a long variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "long l = 1000L;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "long l = 1000;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "long l = '1000';"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "long l = 1.0L;"
+                }
+              ],
+              "answer": "long l = 1000L;"
+            },
+            {
+              "id": "40",
+              "question": "Which of the following is the correct way to declare a short variable in Java?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "short s = 1000;"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "short s = 1000S;"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "short s = 1.0;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "short s = '1000';"
+                }
+              ],
+              "answer": "short s = 1000;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cName": "React Course",
+      "cDescription": "React is a popular JavaScript library for building user interfaces, particularly single-page applications. It's used for handling the view layer for web and mobile apps.",
+      "cPrice": 25,
+      "instructorId": "2",
+      "uCreateDate": "5/15/2024",
+      "cRate": "4.8",
+      "cateId": "4",
+      "cEnrolledStudent": 32,
+      "cOverview": "React",
+      "cImage": "/image/CoursePage/4.png",
+      "courseModule": [
+        {
+          "id": "1",
+          "name": "Module 1: React Basics",
+          "cVideo": [
+            {
+              "videoId": "1",
+              "videoTitle": "Introduction to React ⚛️",
+              "videoUrl": "https://www.youtube.com/watch?v=Tn6-PIqc4UM"
+            },
+            {
+              "videoId": "2",
+              "videoTitle": "Setting up a React Environment 🛠️",
+              "videoUrl": "https://www.youtube.com/watch?v=6RhOzQciVwI"
+            },
+            {
+              "videoId": "3",
+              "videoTitle": "JSX and Components 🧩",
+              "videoUrl": "https://www.youtube.com/watch?v=9D1x7-2FmTA"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "1",
+              "question": "What is React?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A JavaScript library for building user interfaces"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A programming language"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A database management system"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "An operating system"
+                }
+              ],
+              "answer": "A JavaScript library for building user interfaces"
+            },
+            {
+              "id": "2",
+              "question": "What is JSX?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A syntax extension for JavaScript"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A new programming language"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A database query language"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A styling framework"
+                }
+              ],
+              "answer": "A syntax extension for JavaScript"
+            },
+            {
+              "id": "3",
+              "question": "What is a React component?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "An independent and reusable bit of code"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A database table"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A styling class"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A type of React event"
+                }
+              ],
+              "answer": "An independent and reusable bit of code"
+            },
+            {
+              "id": "4",
+              "question": "How do you create a functional component in React?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "function MyComponent() { return <div>Hello</div>; }"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "class MyComponent { render() { return <div>Hello</div>; } }"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "const MyComponent = <div>Hello</div>;"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "MyComponent() => { return <div>Hello</div>; }"
+                }
+              ],
+              "answer": "function MyComponent() { return <div>Hello</div>; }"
+            },
+            {
+              "id": "5",
+              "question": "What is the correct way to render a component in React?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "<MyComponent />"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "MyComponent()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "{MyComponent}"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "render(MyComponent)"
+                }
+              ],
+              "answer": "<MyComponent />"
+            },
+            {
+              "id": "6",
+              "question": "What does the 'render' method do in a React class component?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Returns the JSX to be rendered"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Handles component lifecycle"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Manages component state"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Handles event listeners"
+                }
+              ],
+              "answer": "Returns the JSX to be rendered"
+            },
+            {
+              "id": "7",
+              "question": "How do you pass data from a parent component to a child component?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Using props"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Using state"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Using context"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Using Redux"
+                }
+              ],
+              "answer": "Using props"
+            },
+            {
+              "id": "8",
+              "question": "What is the purpose of state in React?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To store and manage component-specific data"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To style components"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle HTTP requests"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To define component structure"
+                }
+              ],
+              "answer": "To store and manage component-specific data"
+            },
+            {
+              "id": "9",
+              "question": "What is the correct way to update state in a class component?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "this.setState({key: value})"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "this.state = {key: value}"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "setState({key: value})"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "this.updateState({key: value})"
+                }
+              ],
+              "answer": "this.setState({key: value})"
+            },
+            {
+              "id": "10",
+              "question": "What is the purpose of the 'key' prop when rendering a list of elements?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To help React identify which items have changed"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To style list items"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To sort list items"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To filter list items"
+                }
+              ],
+              "answer": "To help React identify which items have changed"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Module 2: React Hooks",
+          "cVideo": [
+            {
+              "videoId": "4",
+              "videoTitle": "Introduction to React Hooks 🎣",
+              "videoUrl": "https://www.youtube.com/watch?v=dpw9EHDh2bM"
+            },
+            {
+              "videoId": "5",
+              "videoTitle": "useState and useEffect Hooks 🔄",
+              "videoUrl": "https://www.youtube.com/watch?v=O6P86uwfdR0"
+            },
+            {
+              "videoId": "6",
+              "videoTitle": "Custom Hooks 🛠️",
+              "videoUrl": "https://www.youtube.com/watch?v=5JSigy8E6vk"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "11",
+              "question": "What are React Hooks?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Functions that let you use state and other React features in functional components"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Classes that manage component lifecycle"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Methods for handling events in React"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Tools for managing global state"
+                }
+              ],
+              "answer": "Functions that let you use state and other React features in functional components"
+            },
+            {
+              "id": "12",
+              "question": "What is the purpose of the useState hook?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To add state to functional components"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To handle side effects in components"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To optimize component rendering"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component lifecycle"
+                }
+              ],
+              "answer": "To add state to functional components"
+            },
+            {
+              "id": "13",
+              "question": "What does the useEffect hook do?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Performs side effects in function components"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Manages state in function components"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Handles events in function components"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Creates custom hooks"
+                }
+              ],
+              "answer": "Performs side effects in function components"
+            },
+            {
+              "id": "14",
+              "question": "How do you declare state using the useState hook?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "const [state, setState] = useState(initialValue);"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "const state = useState(initialValue);"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "useState(state, initialValue);"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "const {state, setState} = useState(initialValue);"
+                }
+              ],
+              "answer": "const [state, setState] = useState(initialValue);"
+            },
+            {
+              "id": "15",
+              "question": "What is the correct way to update state using the useState hook?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "setState(newValue)"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "state = newValue"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "useState(newValue)"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "updateState(newValue)"
+                }
+              ],
+              "answer": "setState(newValue)"
+            },
+            {
+              "id": "16",
+              "question": "What is the purpose of the dependency array in useEffect?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To specify when the effect should run"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To define the initial state"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle errors in the effect"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To optimize component rendering"
+                }
+              ],
+              "answer": "To specify when the effect should run"
+            },
+            {
+              "id": "17",
+              "question": "What does an empty dependency array in useEffect mean?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "The effect runs only once after the initial render"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "The effect runs after every render"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "The effect never runs"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "The effect runs before the initial render"
+                }
+              ],
+              "answer": "The effect runs only once after the initial render"
+            },
+            {
+              "id": "18",
+              "question": "What is a custom hook in React?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A function that uses other hooks and can be reused across components"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A built-in React hook with custom functionality"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A method to create new React components"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A way to add custom event listeners to components"
+                }
+              ],
+              "answer": "A function that uses other hooks and can be reused across components"
+            },
+            {
+              "id": "19",
+              "question": "What is the naming convention for custom hooks?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "They should start with 'use'"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "They should end with 'Hook'"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "They should be all uppercase"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "There is no specific naming convention"
+                }
+              ],
+              "answer": "They should start with 'use'"
+            },
+            {
+              "id": "20",
+              "question": "What is the purpose of the useContext hook?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To help React identify which items have changed"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To style list items"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To sort list items"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To filter list items"
+                }
+              ],
+              "answer": "To help React identify which items have changed"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Module 3: React Router and State Management",
+          "cVideo": [
+            {
+              "videoId": "7",
+              "videoTitle": "Introduction to React Router 🛣️",
+              "videoUrl": "https://www.youtube.com/watch?v=Law7wfdg_ls"
+            },
+            {
+              "videoId": "8",
+              "videoTitle": "State Management with Context API 🌐",
+              "videoUrl": "https://www.youtube.com/watch?v=35lXWvCuM8o"
+            },
+            {
+              "videoId": "9",
+              "videoTitle": "Introduction to Redux 🔄",
+              "videoUrl": "https://www.youtube.com/watch?v=poQXNp9ItL4"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "21",
+              "question": "What is React Router used for?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Managing navigation in a React application"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Handling HTTP requests"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Creating reusable components"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Styling React components"
+                }
+              ],
+              "answer": "Managing navigation in a React application"
+            },
+            {
+              "id": "22",
+              "question": "Which component is used to define a route in React Router?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "<Route>"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "<Link>"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "<Router>"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "<Navigation>"
+                }
+              ],
+              "answer": "<Route>"
+            },
+            {
+              "id": "23",
+              "question": "What is the purpose of the Context API in React?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To provide a way to pass data through the component tree without passing props manually"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To handle routing in React applications"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To manage component lifecycle"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To create reusable UI components"
+                }
+              ],
+              "answer": "To provide a way to pass data through the component tree without passing props manually"
+            },
+            {
+              "id": "24",
+              "question": "What are the two main components of the Context API?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Provider and Consumer"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Sender and Receiver"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Parent and Child"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Dispatcher and Subscriber"
+                }
+              ],
+              "answer": "Provider and Consumer"
+            },
+            {
+              "id": "25",
+              "question": "What is Redux?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A predictable state container for JavaScript apps"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A routing library for React"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A styling framework for React"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A testing library for React"
+                }
+              ],
+              "answer": "A predictable state container for JavaScript apps"
+            },
+            {
+              "id": "26",
+              "question": "What are the three fundamental principles of Redux?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Single source of truth, State is read-only, Changes are made with pure functions"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Multiple sources of truth, State is mutable, Changes are made with impure functions"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Single source of truth, State is mutable, Changes are made with pure functions"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Multiple sources of truth, State is read-only, Changes are made with impure functions"
+                }
+              ],
+              "answer": "Single source of truth, State is read-only, Changes are made with pure functions"
+            },
+            {
+              "id": "27",
+              "question": "What is an action in Redux?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A plain JavaScript object that describes what happened"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A function that updates the state"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A component that displays the state"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A method that fetches data from an API"
+                }
+              ],
+              "answer": "A plain JavaScript object that describes what happened"
+            },
+            {
+              "id": "28",
+              "question": "What is a reducer in Redux?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A function that takes the current state and an action, and returns a new state"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A component that renders the state"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "An object that stores the application state"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A method that dispatches actions"
+                }
+              ],
+              "answer": "A function that takes the current state and an action, and returns a new state"
+            },
+            {
+              "id": "29",
+              "question": "What is the purpose of the useParams hook in React Router?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To access URL parameters in a component"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create new routes dynamically"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle form submissions"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component state"
+                }
+              ],
+              "answer": "To access URL parameters in a component"
+            },
+            {
+              "id": "30",
+              "question": "What is the purpose of the useNavigate hook in React Router?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To programmatically navigate to different routes"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create new routes"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle form submissions"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component state"
+                }
+              ],
+              "answer": "To programmatically navigate to different routes"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Module 4: Advanced React Concepts",
+          "cVideo": [
+            {
+              "videoId": "10",
+              "videoTitle": "React Performance Optimization 🚀",
+              "videoUrl": "https://www.youtube.com/watch?v=5fLW5Q5ODiE"
+            },
+            {
+              "videoId": "11",
+              "videoTitle": "Server-Side Rendering with Next.js 🖥️",
+              "videoUrl": "https://www.youtube.com/watch?v=mTz0GXj8NN0"
+            },
+            {
+              "videoId": "12",
+              "videoTitle": "Testing React Applications 🧪",
+              "videoUrl": "https://www.youtube.com/watch?v=OVNjsIto9xM"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "31",
+              "question": "What is the purpose of React.memo()?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To memoize a component and prevent unnecessary re-renders"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create a new component"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle component lifecycle"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component state"
+                }
+              ],
+              "answer": "To memoize a component and prevent unnecessary re-renders"
+            },
+            {
+              "id": "32",
+              "question": "What is the useCallback hook used for?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To memoize callback functions"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create new components"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle HTTP requests"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component state"
+                }
+              ],
+              "answer": "To memoize callback functions"
+            },
+            {
+              "id": "33",
+              "question": "What is the purpose of the useMemo hook?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To memoize expensive computations"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create new components"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle component lifecycle"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component state"
+                }
+              ],
+              "answer": "To memoize expensive computations"
+            },
+            {
+              "id": "34",
+              "question": "What is server-side rendering?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Rendering React components on the server instead of in the browser"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Rendering React components only in the browser"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A way to style React components"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A method to handle form submissions"
+                }
+              ],
+              "answer": "Rendering React components on the server instead of in the browser"
+            },
+            {
+              "id": "35",
+              "question": "What is Next.js?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A React framework for production"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A state management library"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A testing framework for React"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A styling library for React"
+                }
+              ],
+              "answer": "A React framework for production"
+            },
+            {
+              "id": "36",
+              "question": "What is the purpose of the getServerSideProps function in Next.js?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To fetch data on the server for each request"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To handle client-side routing"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To optimize images"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component state"
+                }
+              ],
+              "answer": "To fetch data on the server for each request"
+            },
+            {
+              "id": "37",
+              "question": "What is Jest?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "A JavaScript testing framework"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "A state management library"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A styling framework"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "A routing library"
+                }
+              ],
+              "answer": "A JavaScript testing framework"
+            },
+            {
+              "id": "38",
+              "question": "What is the purpose of React Testing Library?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To test React components in a way that resembles how users interact with them"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To manage application state"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle routing in React applications"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To style React components"
+                }
+              ],
+              "answer": "To test React components in a way that resembles how users interact with them"
+            },
+            {
+              "id": "39",
+              "question": "What is the purpose of the act() function in React testing?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To wrap code that causes updates to components"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create new components"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle HTTP requests"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component state"
+                }
+              ],
+              "answer": "To wrap code that causes updates to components"
+            },
+            {
+              "id": "40",
+              "question": "What is the purpose of the cleanup function in React Testing Library?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To unmount components and clean up after each test"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To create new components"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To handle HTTP requests"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To manage component state"
+                }
+              ],
+              "answer": "To unmount components and clean up after each test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cName": "PHP Course",
+      "cDescription": "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.",
+      "cPrice": 25,
+      "instructorId": "4",
+      "uCreateDate": "5/15/2024",
+      "cRate": "4.8",
+      "cateId": "5",
+      "cEnrolledStudent": 24,
+      "cOverview": "PHP",
+      "cImage": "/image/CoursePage/5.png",
+      "courseModule": [
+        {
+          "id": "1",
+          "name": "Module 1: Introduction to PHP",
+          "cVideo": [
+            {
+              "videoId": "1",
+              "videoTitle": "Introduction to PHP 🐘",
+              "videoUrl": "https://www.youtube.com/watch?v=2eebptXfEvw"
+            },
+            {
+              "videoId": "2",
+              "videoTitle": "Setting up PHP environment 🛠️",
+              "videoUrl": "https://www.youtube.com/watch?v=kuMTZowwjus"
+            },
+            {
+              "videoId": "3",
+              "videoTitle": "PHP syntax basics 📝",
+              "videoUrl": "https://www.youtube.com/watch?v=cGwSm8xDSwI"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "1",
+              "question": "What does PHP stand for?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Personal Home Page"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "PHP: Hypertext Preprocessor"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Programming Hypertext Protocol"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Preprocessed Hypertext Pages"
+                }
+              ],
+              "answer": "PHP: Hypertext Preprocessor"
+            },
+            {
+              "id": "2",
+              "question": "Which symbol is used to start a PHP code block?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "<?"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "<php>"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "<?php"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "<script php>"
+                }
+              ],
+              "answer": "<?php"
+            },
+            {
+              "id": "3",
+              "question": "How do you end a PHP statement?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "."
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": ";"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": ":"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "!"
+                }
+              ],
+              "answer": ";"
+            },
+            {
+              "id": "4",
+              "question": "Which function is used to output text in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "echo()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "print()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "write()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "output()"
+                }
+              ],
+              "answer": "echo()"
+            },
+            {
+              "id": "5",
+              "question": "How do you start a single-line comment in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "//"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "<!--"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "/*"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "#"
+                }
+              ],
+              "answer": "//"
+            },
+            {
+              "id": "6",
+              "question": "Which of the following is NOT a valid PHP variable name?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "$myVar"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "$_myVar"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "$2myVar"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "$my_var"
+                }
+              ],
+              "answer": "$2myVar"
+            },
+            {
+              "id": "7",
+              "question": "What is the correct way to create a function in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "function myFunction()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "new function myFunction()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "create myFunction()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "def myFunction()"
+                }
+              ],
+              "answer": "function myFunction()"
+            },
+            {
+              "id": "8",
+              "question": "Which operator is used for string concatenation in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "+"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "&"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "."
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": ","
+                }
+              ],
+              "answer": "."
+            },
+            {
+              "id": "9",
+              "question": "What is the correct way to open a file in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "open(\"file.txt\")"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "fopen(\"file.txt\", \"r\")"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "openfile(\"file.txt\")"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "file(\"file.txt\")"
+                }
+              ],
+              "answer": "fopen(\"file.txt\", \"r\")"
+            },
+            {
+              "id": "10",
+              "question": "Which superglobal variable is used to collect form data after submitting an HTML form with method=\"post\"?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "$_GET"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "$_POST"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "$_REQUEST"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "$_FORM"
+                }
+              ],
+              "answer": "$_POST"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Module 2: PHP Data Types and Control Structures",
+          "cVideo": [
+            {
+              "videoId": "4",
+              "videoTitle": "PHP Data Types 📊",
+              "videoUrl": "https://www.youtube.com/watch?v=7TF00hJI78Y"
+            },
+            {
+              "videoId": "5",
+              "videoTitle": "PHP Control Structures 🔀",
+              "videoUrl": "https://www.youtube.com/watch?v=t0JAHZdLI_8"
+            },
+            {
+              "videoId": "6",
+              "videoTitle": "PHP Arrays 📚",
+              "videoUrl": "https://www.youtube.com/watch?v=9utk7vkGmRo"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "11",
+              "question": "Which of the following is not a scalar data type in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "integer"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "float"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "string"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "array"
+                }
+              ],
+              "answer": "array"
+            },
+            {
+              "id": "12",
+              "question": "What is the correct way to create an associative array in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "$arr = array(\"key\" => \"value\");"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "$arr = [\"key\" = \"value\"];"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "$arr = {\"key\": \"value\"};"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "$arr = (\"key\", \"value\");"
+                }
+              ],
+              "answer": "$arr = array(\"key\" => \"value\");"
+            },
+            {
+              "id": "13",
+              "question": "Which loop is best used when you don't know how many times the loop should run?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "for"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "while"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "do...while"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "foreach"
+                }
+              ],
+              "answer": "while"
+            },
+            {
+              "id": "14",
+              "question": "What does the '===' operator do in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Assigns a value"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Compares values"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Compares values and data types"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Checks if a variable is set"
+                }
+              ],
+              "answer": "Compares values and data types"
+            },
+            {
+              "id": "15",
+              "question": "Which function is used to count the number of elements in an array?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "count()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "sizeof()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "length()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "array_count()"
+                }
+              ],
+              "answer": "count()"
+            },
+            {
+              "id": "16",
+              "question": "What is the result of the expression '5' + 2 in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "7"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "52"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "\"52\""
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Error"
+                }
+              ],
+              "answer": "7"
+            },
+            {
+              "id": "17",
+              "question": "Which of the following is used to declare a constant in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "define()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "const"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "constant()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Both A and B"
+                }
+              ],
+              "answer": "Both A and B"
+            },
+            {
+              "id": "18",
+              "question": "What is the correct way to check if a variable is an array in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "is_array()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "array_check()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "typeof()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "check_array()"
+                }
+              ],
+              "answer": "is_array()"
+            },
+            {
+              "id": "19",
+              "question": "Which function is used to sort an array in ascending order in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "sort()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "asort()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "ksort()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "rsort()"
+                }
+              ],
+              "answer": "sort()"
+            },
+            {
+              "id": "20",
+              "question": "What is the purpose of the 'break' statement in a switch structure?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To end the switch statement"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To skip to the next case"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To exit the current case"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To restart the switch statement"
+                }
+              ],
+              "answer": "To exit the current case"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Module 3: PHP Functions and OOP",
+          "cVideo": [
+            {
+              "videoId": "7",
+              "videoTitle": "PHP Functions 🧩",
+              "videoUrl": "https://www.youtube.com/watch?v=HvxQww-7NWg"
+            },
+            {
+              "videoId": "8",
+              "videoTitle": "Introduction to OOP in PHP 🏗️",
+              "videoUrl": "https://www.youtube.com/watch?v=Anz0ArcQ5kI"
+            },
+            {
+              "videoId": "9",
+              "videoTitle": "PHP Classes and Objects 🎭",
+              "videoUrl": "https://www.youtube.com/watch?v=j_bcCsCrm2Q"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "21",
+              "question": "What is the correct way to define a function in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "function myFunction() {}"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "def myFunction() {}"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "func myFunction() {}"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "function: myFunction() {}"
+                }
+              ],
+              "answer": "function myFunction() {}"
+            },
+            {
+              "id": "22",
+              "question": "Which keyword is used to create a class in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "class"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "struct"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "object"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "define"
+                }
+              ],
+              "answer": "class"
+            },
+            {
+              "id": "23",
+              "question": "How do you create an instance of a class in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "$obj = new MyClass();"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "$obj = create MyClass();"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "$obj = instance MyClass();"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "$obj = MyClass();"
+                }
+              ],
+              "answer": "$obj = new MyClass();"
+            },
+            {
+              "id": "24",
+              "question": "Which keyword is used to refer to the current instance of a class within its methods?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "this"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "self"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "current"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "instance"
+                }
+              ],
+              "answer": "this"
+            },
+            {
+              "id": "25",
+              "question": "What is the purpose of a constructor method in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To destroy an object"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To initialize an object"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To clone an object"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To compare objects"
+                }
+              ],
+              "answer": "To initialize an object"
+            },
+            {
+              "id": "26",
+              "question": "Which visibility keyword makes a property or method accessible only within the class?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "public"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "private"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "protected"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "internal"
+                }
+              ],
+              "answer": "private"
+            },
+            {
+              "id": "27",
+              "question": "What does the 'static' keyword do in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Declares a constant variable"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Makes a method or property belong to the class, not instances"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Creates a final class that can't be inherited"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Declares an abstract method"
+                }
+              ],
+              "answer": "Makes a method or property belong to the class, not instances"
+            },
+            {
+              "id": "28",
+              "question": "Which operator is used to access static properties or methods in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "."
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "->"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "::"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "=>"
+                }
+              ],
+              "answer": "::"
+            },
+            {
+              "id": "29",
+              "question": "What is inheritance in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Creating multiple instances of a class"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Copying properties from one object to another"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "A class deriving properties and methods from another class"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Overriding methods in a class"
+                }
+              ],
+              "answer": "A class deriving properties and methods from another class"
+            },
+            {
+              "id": "30",
+              "question": "Which keyword is used to prevent a method from being overridden in child classes?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "static"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "final"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "abstract"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "protected"
+                }
+              ],
+              "answer": "final"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Module 4: PHP and Databases",
+          "cVideo": [
+            {
+              "videoId": "10",
+              "videoTitle": "Introduction to PHP and MySQL 🗄️",
+              "videoUrl": "https://www.youtube.com/watch?v=TtLJKXMNHoU"
+            },
+            {
+              "videoId": "11",
+              "videoTitle": "PHP Database Operations (CRUD) 📝",
+              "videoUrl": "https://www.youtube.com/watch?v=3xRMUDC74Cw"
+            },
+            {
+              "videoId": "12",
+              "videoTitle": "PHP PDO and Prepared Statements 🛡️",
+              "videoUrl": "https://www.youtube.com/watch?v=kEW6f7Pilc4"
+            }
+          ],
+          "cQuiz": [
+            {
+              "id": "31",
+              "question": "Which PHP extension is commonly used to connect to MySQL databases?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "mysqli"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "mysql"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "pdo"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Both A and C"
+                }
+              ],
+              "answer": "Both A and C"
+            },
+            {
+              "id": "32",
+              "question": "What does PDO stand for in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "PHP Data Objects"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "PHP Database Operations"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "PHP Data Operations"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "PHP Database Objects"
+                }
+              ],
+              "answer": "PHP Data Objects"
+            },
+            {
+              "id": "33",
+              "question": "Which SQL statement is used to retrieve data from a database?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "GET"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "SELECT"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "FETCH"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "RETRIEVE"
+                }
+              ],
+              "answer": "SELECT"
+            },
+            {
+              "id": "34",
+              "question": "What is the purpose of using prepared statements in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To improve performance"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To prevent SQL injection attacks"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To format SQL queries"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Both A and B"
+                }
+              ],
+              "answer": "Both A and B"
+            },
+            {
+              "id": "35",
+              "question": "Which method is used to execute a prepared statement in PDO?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "run()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "execute()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "perform()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "go()"
+                }
+              ],
+              "answer": "execute()"
+            },
+            {
+              "id": "36",
+              "question": "What does CRUD stand for in database operations?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "Create, Read, Update, Delete"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "Connect, Retrieve, Update, Disconnect"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "Create, Retrieve, Update, Drop"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "Copy, Read, Update, Duplicate"
+                }
+              ],
+              "answer": "Create, Read, Update, Delete"
+            },
+            {
+              "id": "37",
+              "question": "Which PDO method is used to fetch a single row from a result set?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "fetchOne()"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "fetchSingle()"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "fetch()"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "fetchRow()"
+                }
+              ],
+              "answer": "fetch()"
+            },
+            {
+              "id": "38",
+              "question": "What is the purpose of the 'WHERE' clause in an SQL query?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To specify which table to query"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To filter the results based on a condition"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To order the results"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To group the results"
+                }
+              ],
+              "answer": "To filter the results based on a condition"
+            },
+            {
+              "id": "39",
+              "question": "Which SQL statement is used to add new data to a database?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "ADD"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "INSERT"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "APPEND"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "NEW"
+                }
+              ],
+              "answer": "INSERT"
+            },
+            {
+              "id": "40",
+              "question": "What is the purpose of database transactions in PHP?",
+              "choice": [
+                {
+                  "choiceId": "1",
+                  "choiceName": "To encrypt database connections"
+                },
+                {
+                  "choiceId": "2",
+                  "choiceName": "To ensure data integrity and consistency"
+                },
+                {
+                  "choiceId": "3",
+                  "choiceName": "To improve query performance"
+                },
+                {
+                  "choiceId": "4",
+                  "choiceName": "To create database backups"
+                }
+              ],
+              "answer": "To ensure data integrity and consistency"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "addToCart": [
+    {
+      "id": "1",
+      "userId": "3",
+      "courseId": "4"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "courseId": "5"
+    }
+  ],
+  "wishlist": [],
+  "paymentHistory": [
+    {
+      "id": "1",
+      "userId": "3",
+      "courseId": "1",
+      "date": "2024/07/07"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "courseId": "2",
+      "date": "2024/06/06"
+    },
+    {
+      "id": "1",
+      "userId": "3",
+      "courseId": "2",
+      "date": "2024/01/02"
+    }
+  ]
+}
